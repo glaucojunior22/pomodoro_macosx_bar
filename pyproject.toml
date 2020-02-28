@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pomodoro_macosx_bar"
+version = "0.1.0"
+description = ""
+authors = ["Glauco Junior <glaucojunior22@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+rumps = "^0.3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+py2app = "^0.21"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
